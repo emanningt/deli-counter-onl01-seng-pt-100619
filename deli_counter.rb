@@ -5,8 +5,8 @@ def line(deli)
   else
     loop other_deli do 
       people_in_line +=1. 
-      puts "The line is cuttently: #{people_in_line} ."
-      
+      puts "The line is cuttently: #{people_in_line}. #{other_deli}."
+      break
   end
   puts current_line
   end
